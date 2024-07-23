@@ -92,7 +92,7 @@ const work = await Promise.all(
             🚀 Career
           </h5>
           <Link href="/work">
-            view all
+            see all
           </Link>
         </div>
         <ul class="flex flex-col space-y-4">
@@ -121,7 +121,7 @@ const work = await Promise.all(
             👨🏼‍💻 Selected projects
           </h5>
           <Link href="/projects">
-            view all
+            see all
           </Link>
         </div>
         <ul class="flex flex-col gap-4">
@@ -139,7 +139,9 @@ const work = await Promise.all(
         </h5>
         <article>
           <p>
-            Email me or follow me on social.
+            Email me at <Link href={`mailto:${SITE.EMAIL}`} aria-label={`Email ${SITE.NAME}`}>
+              {SITE.EMAIL}
+            </Link> or follow me on social.
           </p>
         </article>
         <ul class="flex flex-wrap gap-2">
@@ -148,14 +150,14 @@ const work = await Promise.all(
               <Link href={SOCIAL.HREF} external aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}>
                 {SOCIAL.NAME}
               </Link>
-              {"/"}
+              &nbsp;
             </li>
           ))}
-          <li class="line-clamp-1">
+          <!-- <li class="line-clamp-1">
             <Link href={`mailto:${SITE.EMAIL}`} aria-label={`Email ${SITE.NAME}`}>
               {SITE.EMAIL}
             </Link>
-          </li>
+          </li> -->
         </ul>
       </section>
     </div>
