@@ -4,28 +4,28 @@ export const SITE: Site = {
   NAME: "Kevin Jonathan Keilhofer",
   EMAIL: "kevin.keilhofer@outlook.com",
   NUM_POSTS_ON_HOMEPAGE: 3,
-  NUM_WORKS_ON_HOMEPAGE: 2,
+  NUM_WORKS_ON_HOMEPAGE: 3,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
 };
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
+  DESCRIPTION: "Kevin Jonathan Keilhofer's portfolio.",
 };
 
-export const BLOG: Metadata = {
-  TITLE: "Blog",
-  DESCRIPTION: "A collection of articles on topics I am passionate about.",
-};
+// export const BLOG: Metadata = {
+//   TITLE: "Blog",
+//   DESCRIPTION: "A collection of articles on topics I am passionate about.",
+// };
 
 export const WORK: Metadata = {
   TITLE: "Work",
-  DESCRIPTION: "Where I have worked and what I have done.",
+  DESCRIPTION: "Where Kevin Jonathan Keilhofer worked and what he did.",
 };
 
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
-  DESCRIPTION: "A collection of my projects, with links to repositories and demos.",
+  DESCRIPTION: "A collection of Kevin Jonathan Keilhofer's projects.",
 };
 
 export const SOCIALS: Socials = [
