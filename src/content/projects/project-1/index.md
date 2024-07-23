@@ -1,76 +1,33 @@
 ---
-title: "Astro Sphere"
-description: "Portfolio and blog build with astro."
-date: "Mar 18 2024"
-demoURL: "https://astro-sphere-demo.vercel.app"
-repoURL: "https://github.com/markhorn-dev/astro-sphere"
+title: "BlueRange Setup App"
+description: "Personal assistant for smooth enrollment of BlueRange components."
+date: "2023"
+demoURL: "https://apps.apple.com/de/app/bluerange-setup/id6472202073?platform=iphone"
+# repoURL: "https://xxx.io"
 ---
 
 ![Astro Sphere Lighthouse Score](/astro-sphere.jpg)
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+The BlueRange Setup App helps you successfully commission wirelessly networked buildings for intelligent room automation via BlueRange Mesh. The quick and easy configuration of components and extensive diagnostic functions make it easy to use on site.
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+With the innovative BlueRange Mesh based on Bluetooth Low Energy (BLE), room automation and wireless networking of lighting, sun shading, heating, ventilation, cooling (HVAC) and a wide range of sensors can be flexibly implemented for maximum room comfort.
 
-## 🚀 Deploy your own
+## Features at a glance
 
-<div class="flex gap-2">
-  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere">
-    <img src="/deploy_vercel.svg" />
-  </a>
-  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-sphere">
-    <img src="/deploy_netlify.svg" />
-  </a>
-</div>
+* Registering BlueRange Gateways and BlueRange Mesh Nodes
 
-## 📋 Features
+* Positioning gateways and BlueRange Mesh nodes in a floor plan
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-- ✅ Searchable content (posts and projects)
+* Read sensor values
 
-## 💯 Lighthouse score
-![Astro Sphere Lighthouse Score](/lighthouse.png)
+* Replace mesh components
 
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
+* Configure network settings (e.g. DHCP, DNS, NTP time server or static IP)
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+* Diagnosing BlueRange Gateways (e.g. connection status)
 
-## 📄 Configuration
+* Analyze nearby BlueRange Mesh nodes
 
-The blog posts on the demo serve as the documentation and configuration.
+* Switch between buildings and organizations
 
-## 💻 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
-
-## 🏛️ License
-
-MIT
+> The BlueRange Setup App is primarily intended for commissioning partners and operators of digital buildings with BlueRange Mesh components.
