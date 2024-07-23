@@ -13,10 +13,10 @@ export const HOME: Metadata = {
   DESCRIPTION: "Kevin Jonathan Keilhofer's portfolio.",
 };
 
-// export const BLOG: Metadata = {
-//   TITLE: "Blog",
-//   DESCRIPTION: "A collection of articles on topics I am passionate about.",
-// };
+export const BLOG: Metadata = {
+  TITLE: "Blog",
+  DESCRIPTION: "A collection of articles on topics I am passionate about.",
+};
 
 export const WORK: Metadata = {
   TITLE: "Work",
