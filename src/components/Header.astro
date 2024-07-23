@@ -7,20 +7,27 @@ import { SITE } from "@consts";
 <header>
   <Container>
     <div class="flex flex-wrap gap-y-2 justify-between">
-      <Link href="/" underline={false}>
-        <div class="font-semibold">
-          {SITE.NAME}
+      <Link href="mailto:someone@example.com" underline={false}>
+        <div class="font-regular">
+          <!-- {SITE.NAME} -->
+          kevin.keilhofer@outlook.com
         </div>
       </Link>
       <nav class="flex gap-1">
-        <Link href="/blog">
+        <!-- <Link href="/blog">
           blog
+        </Link>
+        <span>
+          {`/`}
+        </span> -->
+        <Link href="/">
+          home
         </Link>
         <span>
           {`/`}
         </span>
         <Link href="/work">
-          work
+          career
         </Link>
         <span>
           {`/`}
