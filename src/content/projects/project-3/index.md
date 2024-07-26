@@ -1,7 +1,7 @@
 ---
 title: "Aldoo"
 description: "Scalable logistical support."
-date: "2021 "
+date: "2020"
 demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-nano"
 ---
