@@ -1,31 +1,22 @@
 ---
-title: "Astro Nano"
-description: "Minimal portfolio and blog build with astro and no frameworks."
-date: "Mar 26 2018"
+title: "Aldoo"
+description: "Scalable logistical support."
+date: "2021 "
 demoURL: "https://astro-nano-demo.vercel.app"
 repoURL: "https://github.com/markhorn-dev/astro-nano"
 ---
 
-![Astro Nano](/astro-nano.png)
+## Design process
 
-Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
+Small and medium-sized enterprises account for 99.3% of the German market (as at 2018).
+A major problem is warehousing and logistics, which are also the main cost factors. Transportation costs account for 2/3 of expenditure. The need was therefore to develop an efficient and cost-effective solution with high reliability that would support users during their working hours. In order to be able to design a user-centered solution, we tried to make contact with people from the target group who were willing to exchange ideas with us frequently. To this end, we went in search of a local small business with in-house logistics. We developed our solution together with the logistics staff of a local bakery.
 
-Built with Astro, Tailwind and Typescript, an no frameworks.
+To gain an insight into how they work, we observed our users during their working hours. We accompanied them on their delivery routes, analyzed their working methods in detail and conducted interviews. This wealth of information was used to create a user journey map. The right loading system and the clarity of the goods emerged as problems. We used the 'Crazy 8' method to generate initial solutions. From these, we developed prototypes/mockups. We packaged these in user stories or designed click dummies, which were brought closer to the user through role-playing. We then took on board the feedback from our users and
+n rotin
+revised our solution variants into new mockups, which were then presented to the user again in role-playing games. Only by working closely with the user could we jointly design a product that meets their needs.
+The final product is a mobile application that is networked with the transport baskets and supports the driver.
 
-It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
-
-## 🚀 Deploy your own
-
-<div class="flex gap-2">
-  <a target="_blank" aria-label="Deploy with Vercel" href="https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-nano">
-    <img src="/deploy_vercel.svg" />
-  </a>
-  <a target="_blank" aria-label="Deploy with Netlify" href="https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-nano">
-    <img src="/deploy_netlify.svg" />
-  </a>
-</div>
-
-## 📋 Features
+## Product feature
 
 - ✅ 100/100 Lighthouse performance
 - ✅ Responsive
