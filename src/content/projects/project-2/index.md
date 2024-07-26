@@ -2,7 +2,7 @@
 title: "energyGhost"
 description: "Plattform for energy consulting."
 date: "2022"
-demoURL: "[https://astro-nano-demo.vercel.app](https://www.youtube.com/watch?v=jSBkYTsJRJU)"
+demoURL: "https://www.youtube.com/watch?v=jSBkYTsJRJU"
 repoURL: "https://github.com/markhorn-dev/astro-nano"
 ---
 
@@ -53,7 +53,3 @@ Take another look at the house inspection at your leisure afterwards
 energyGhost combines various problem-solving functions with the aim of boosting the renovation market, supporting building owners and relieving the burden on energy consultants. The result should be an increased renovation rate and the prospect of a more energy-efficient future.
 
 We are already working very closely with our experts and contacts, such as the consumer advice center, energy agencies and others, and are in the process of exchanging ideas for the realization of the project so that every building owner and energy consultant will have energyGhost at their disposal in the future.
-
-[![](https://youtu.be/jSBkYTsJRJU?si=S_uHEuFHAG63rwsJ)](https://youtu.be/jSBkYTsJRJU?si=S_uHEuFHAG63rwsJ)
-
-<iframe width="560" height="315" src="https://youtu.be/jSBkYTsJRJU?si=S_uHEuFHAG63rwsJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
